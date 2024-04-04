@@ -1,5 +1,5 @@
 
-model = {
+const model= {
     app: {
         currentPage: ["addNewBook"],
     },
@@ -9,20 +9,25 @@ model = {
             author: "",
             publicationYear: "",
             genre: "",
-            rating: null,
+            rating: 0,
         },
     },
 
     data: {
         savedBooks: [
-            {
+            {   id: 0,
                 title: "The Secret History",
                 author: "Donna Tartt",
                 publicationYear: "1992",
-                genres: [fiction, literary, mystery, thriller],
+                genre: ["fiction"],
                 rating: 4.5,
             },
         ],
+        genres: ["Non-Fiction", "Historical Fiction",
+                "Horror", "Romance", "Mystery", "Thriller",
+                "Adventure", "Fantasty", "Contemporary",
+                "Dystopian", "Sci-Fi", ],
+        rating: [1, 2, 3, 4, 5],
     },
 }
 
