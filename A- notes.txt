@@ -1,0 +1,20 @@
+Model:
+
+Input: 
+    New book:
+        title
+        author
+        publication year
+        genre
+        rating
+
+Data:
+    Books: [
+        {
+        title
+        author
+        publication year
+        genre
+        rating
+        }
+    ]
