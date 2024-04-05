@@ -21,7 +21,7 @@ function pushNewBook() {
             title: model.input.newBook.title,
             author: model.input.newBook.author,
             publicationYear: model.input.newBook.publicationYear,
-            genre: model.input.newBook.genr,
+            genre: model.input.newBook.genre,
             rating: model.input.newBook.rating,
 
     }
