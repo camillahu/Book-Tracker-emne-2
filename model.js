@@ -1,10 +1,18 @@
 
 const model= {
     app: {
-        currentPage: ["addNewBook"],
+        currentPage: "",
     },
     input: {
         newBook: {
+            title: "",
+            author: "",
+            publicationYear: "",
+            genre: "",
+            rating: 0,
+        },
+        editBook:{
+            id:null,
             title: "",
             author: "",
             publicationYear: "",
@@ -29,7 +37,7 @@ const model= {
                 publicationYear: "2015",
                 genre: ["Fantasy"],
                 rating: 5,
-                picture: "ACOTAR.jpeg",
+                picture: "ACOTAR.jpg",
             },
             {   id: 2,
                 title: "A Court of Mist and Fury",
@@ -37,7 +45,7 @@ const model= {
                 publicationYear: "2016",
                 genre: ["Fantasy"],
                 rating: 5,
-                picture: "ACOMAF.jpeg",
+                picture: "ACOMAF.jpg",
             },
             
 

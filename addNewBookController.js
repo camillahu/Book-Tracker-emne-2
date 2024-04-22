@@ -1,18 +1,22 @@
 
-function getTitleInput(title) {
-    model.input.newBook.title = title;
-}
-function getAuthorInput(author) {
-    model.input.newBook.author = author;
-}
-function getPublicationYearInput(publicationYear) {
-    model.input.newBook.publicationYear = publicationYear;
-}
-function getGenreInput(genre) {
-    model.input.newBook.genre = genre;
-}
-function getRatingInput(rating) {
-    model.input.newBook.rating = rating;
+// function getTitleInput(title) {
+//     model.input.newBook.title = title;
+// }
+// function getAuthorInput(author) {
+//     model.input.newBook.author = author;
+// }
+// function getPublicationYearInput(publicationYear) {
+//     model.input.newBook.publicationYear = publicationYear;
+// }
+// function getGenreInput(genre) {
+//     model.input.newBook.genre = genre;
+// }
+// function getRatingInput(rating) {
+//     model.input.newBook.rating = rating;
+// }
+
+function getNewBookInput(value, property) {
+    model.input.newBook[property] = value;
 }
 
 function pushNewBook() {
